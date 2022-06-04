@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms | Exercises</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,700;1,300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<style>
+    main {
+        background: #f5f5f5;
+        height: 72vh;
+    }
+
+    form {
+        display: block;
+        width: 20%;
+        margin: 0 auto;
+    }
+
+    input,
+    button {
+        width: 100%;
+        margin-bottom: .5rem;
+        padding: .5rem;
+        border: 1px solid #ced4da;
+        outline: 0;
+        font-family: 'Open Sans', sans-serif;
+        border-radius: 5px;
+    }
+
+    input:focus {
+        border: 1px solid #86b7fe;
+        box-shadow: 0 0 0 4px #b9d3fa;
+    }
+
+    h2 {
+        text-align: center;
+        padding-top: 6rem;
+    }
+
+    button {
+        background-color: #0d6efd;
+        border-radius: 1rem;
+        color: white;
+        margin: 0 auto;
+        width: 110%;
+    }
+
+    label,
+    input[type="checkbox"],
+    button {
+        display: inline;
+
+    }
+
+    .check {
+        text-align: center;
+    }
+
+    input[type="checkbox"] {
+        width: 5%;
+    }
+
+    p {
+        text-align: center;
+        color: lightslategray;
+    }
+
+    @media screen and (max-width: 972px) {
+        form {
+            width: 40%;
+        }
+    }
+</style>
+
+<body>
+    <h1>Exercise 7 - Forms</h1>
+    <main>
+        <section>
+            <h2>Please sign in</h2>
+            <form action="https://formspree.io/f/xoqrybkv" method="POST">
+                <input type="email" name="email" id="email" autofocus required placeholder="Email address">
+                <input type="password" name="password" id="password" required placeholder="Password">
+                <div class="check"><input type="checkbox" name="remember" id="remember"><label for="remember">Remember
+                        me</label></div>
+                <button type="submit">Sign In</button>
+                <p>Copyright &copy; 2020</p>
+            </form>
+        </section>
+    </main>
+    <div class="work-link">
+        <a href="forms.htm">Exercise 7 - Forms</a>
+    </div>
+</body>
+
+</html>

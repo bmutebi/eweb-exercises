@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Web Food Hub</title>
+</head>
+
+<style>
+    img {
+        height: auto;
+        object-fit: cover;
+    }
+
+    video {
+        width: 50%;
+    }
+
+    table,
+    tr,
+    td,
+    th {
+        border: 1px solid grey;
+        border-collapse: collapse;
+        padding: .5pc;
+    }
+
+    img {
+        background-color: rgba(230, 12, 200, 0.5);
+    }
+
+    tr:nth-child(even) {
+        background-color: lightgrey;
+    }
+
+    a[href*="google"] {
+        color: red;
+    }
+
+    main p:first-of-type {
+        color: green;
+        font-size: larger;
+        font-style: italic;
+    }
+
+    /* .first-letter {
+        color: deeppink;
+    } */
+
+    p::first-letter {
+        color: deeppink;
+    }
+
+    ::selection {
+        background-color: aquamarine;
+    }
+
+    h1::after {
+        content: "__________________________";
+        display: block;
+        padding-bottom: 10px;
+    }
+</style>
+
+<body>
+    <main>
+        <h1>&#9731; Food Hub </h1>
+
+        <p><span class="first-class">L</span>orem ipsum dolor sit amet, consectetur adipisicing elit. Sequi magnam ad
+            aut vitae aliquam
+            assumenda facilis
+            fugiat quibusdam, odit perspiciatis quod numquam excepturi id aspernatur dignissimos eligendi blanditiis.
+            Recusandae, accusamus.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam quibusdam temporibus, magni libero,
+            voluptatibus quod ut laboriosam, fugiat nemo quidem suscipit iure quisquam porro dicta maiores corrupti
+            sapiente ullam excepturi?</p>
+        <video controls src="resources/People Being Served their Food and Getting Ready to Eat.mp4">
+            Your browser doesn't support videos.
+        </video>
+        <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+            alt="restaurant image">
+        <a href="https://google.com/">Google Search</a>
+        <dl>
+            <dt>Title</dt>
+            <dd>Oracle Essentials</dd>
+            <dt>Author</dt>
+            <dd>Mutebi Bashir</dd>
+            <dt>Skills</dt>
+            <dd>Oracle Architecture</dd>
+            <dd>Instance Management</dd>
+            <dd>User Security Management</dd>
+            <dd>Database Backup & Recovery</dd>
+        </dl>
+        <table>
+            <tr>
+                <th aria-rowspan="2">Tables</th>
+            </tr>
+            <tr>
+                <tbody>
+                    <tr>
+                        <td>youtube</td>
+                        <td>awesome</td>
+                    </tr>
+                    <tr>
+                        <td>youtube</td>
+                        <td>awesome</td>
+                    </tr>
+                    <tr>
+                        <td>youtube</td>
+                        <td>awesome</td>
+                    </tr>
+                    <tr>
+                        <td>youtube</td>
+                        <td>awesome</td>
+                    </tr>
+                    <tr>
+                        <td>great</td>
+                        <td>look</td>
+                    </tr>
+                </tbody>
+            </tr>
+
+            <tr>
+                <th>Footer</th>
+            </tr>
+
+        </table>
+    </main>
+</body>
+
+</html>

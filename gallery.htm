@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Nav | Exercises</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<style>
+    nav {
+        background-color: #222;
+        padding: 1rem;
+        display: flex;
+        justify-content: end;
+    }
+
+    nav a {
+        font-family: Arial, Helvetica, sans-serif;
+        color: #fff;
+        text-decoration: none;
+        margin-right: 1rem;
+    }
+
+    @media screen and (max-width: 768px) {
+        nav {
+            flex-direction: column;
+        }
+
+        nav a {
+            margin: .5rem auto;
+        }
+    }
+</style>
+
+<body>
+    <h1>Exercise 3 - Responsive Nav</h1>
+    <nav>
+        <a href="">About</a>
+        <a href="">Courses</a>
+        <a href="">Forum</a>
+        <a href="">Learning Paths</a>
+        <a href="">Contact</a>
+    </nav>
+    <div class="work-link">
+        <a href="nav.htm">Exercise 4 - Gallery</a>
+    </div>
+
+</body>
+
+</html>

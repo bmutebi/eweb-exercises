@@ -1,0 +1,44 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #427fef;
+    color: white;
+}
+
+td,
+tr,
+th {
+    padding: 10px;
+    border-bottom: 1px solid #c4dcf3;
+}
+
+tr:nth-child(even) {
+    background: #eef7ff;
+}
+
+h1 {
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.box1 {
+    width: 300px;
+    height: 300px;
+    background: tomato;
+    border-radius: 10px;
+    box-shadow: 15px 15px lightgray;
+}
+
+.work-link {
+    border-top: 1px solid lightgray;
+    padding-top: 10px;
+    text-align: center;
+    margin: 25px 0;
+}
