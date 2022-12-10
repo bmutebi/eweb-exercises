@@ -40,5 +40,23 @@ h1 {
     border-top: 1px solid lightgray;
     padding-top: 10px;
     text-align: center;
-    margin: 25px 0;
+    margin: 25px auto;
+    font-family: inherit;
+    position: fixed;
+    bottom: 0;
 }
+
+.work-link a {
+    text-decoration: none;  
+    margin: 0 30px;
+}
+
+.work-link a:first-child::before {
+    content: "👈 ";
+}
+
+.work-link a:last-child::after {
+    content: " 👉";
+}
+
+
